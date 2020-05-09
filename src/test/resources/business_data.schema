@@ -1,0 +1,6 @@
+message spark_schema {
+    optional int32 business_id;
+    optional binary city (UTF8);
+    optional binary name (UTF8);
+}
+
